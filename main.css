@@ -1,0 +1,37 @@
+#timer {
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 40px
+}
+
+.time {
+    padding-right: 10px;
+}
+
+.btn-box {
+    display: flex;
+}
+
+.btn {
+    cursor: pointer;
+    display: block;
+}
+
+.btn.is-disabled {
+    pointer-events: none;
+     opacity: 0.5;
+}
+
+#start {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+#stop {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+#reset {
+    padding: 10px;
+}
